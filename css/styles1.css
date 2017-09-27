@@ -30,7 +30,7 @@ body {
         position: absolute;
         /*left: 50%;
         top: 50%;*/
-        background-image: url(../images/IMG-20150329-WA0000.jpg);
+        background-image: url(../images/wallpapers.jpg);
         background-repeat: no-repeat;
         background-position: center;
         -moz-background-size: cover;
@@ -56,8 +56,15 @@ body {
 
     #moi {
       font-size: 80px;
-      font-weight: bolder;
+      font-weight: normal;
       color: #ffc700;
+    }
+
+    .bg {
+      background: rgba(10,0,0,0.5);
+      text-align: center;
+      padding: 10px 10px;
+
     }
 
     .btn.extra-width {
