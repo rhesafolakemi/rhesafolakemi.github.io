@@ -7,14 +7,11 @@ body {
     padding: 0;
     margin-left: 0;
     margin-right: 0;
-    font-family: 'Signika' sans-serif;
-    font-weight: 300;
   }
 
-div, p{
-  font-family: 'Signika' sans-serif;
-}
-
+  body {
+      font-family: 'Poppins' sans-serif;
+    }
 .preload {
         position: fixed;
         top: 0;
@@ -32,14 +29,11 @@ div, p{
         width: 1420px;
         height: 100%;
         position: absolute;
-        /*left: 50%;
-        top: 50%;*/
         background-image: url(../images/wallpapers.jpg);
         background-repeat: no-repeat;
         background-position: center;
         -moz-background-size: cover;
         background-size: cover;
-        /*margin: -20px 0 0 -20px;*/
     }
 
     a,
@@ -101,14 +95,14 @@ h1 {
     font-size: 3rem;
     line-height: 4rem;
     font-weight: 300;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 
 h2 {
     font-size: 2.5rem;
     line-height: 3rem;
     margin-bottom: .9rem;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 
 h3 {
@@ -117,23 +111,23 @@ h3 {
     font-size: 2.1rem;
     line-height: 2.5rem;
     color: #070707;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 h4 {
     font-size: 1.6rem;
     line-height: 2.2rem;
     margin-bottom: 1.8rem;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 h5 {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 h6 {
     font-size: 1rem;
     margin-bottom: .9rem;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 
 #fola {
@@ -143,11 +137,11 @@ h6 {
 p {
     line-height: 1.5rem;
     font-size: 1rem;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 p:last-child {
     margin-bottom:0px;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 
 .features-bg{
@@ -162,7 +156,7 @@ p:last-child {
 }
 .features-item i{
     font-size:40px;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 .features-item h6{
     padding-top:35px;
@@ -171,7 +165,7 @@ p:last-child {
     font-size: 18px;
     text-transform: uppercase;
     color:#fff;
-    font-family: 'Signika' sans-serif;
+    font-family: 'Poppins' sans-serif;
 }
 .features-item h6 a:hover{
     color:#ff2b4a;
@@ -242,7 +236,7 @@ p:last-child {
     color:#fff;
     text-transform:uppercase;
     font-size:26px;
-    font-family: 'Signika' sans-serif;;
+    font-family: 'Poppins' sans-serif;
     font-weight:600;
     margin-bottom:50px;
 }
@@ -261,4 +255,91 @@ p:last-child {
     border-bottom:1px solid #dadada;
     padding-bottom: 30px;
     margin-bottom: 30px;
+}
+
+.contact{
+    background: url(../images/p3.jpg) no-repeat center top fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contact-area{
+    background: rgba(79, 50, 68, .7);
+    padding:60px 40px 147px 40px;
+    color:#fff;
+}
+.contact-wrapper h4{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:26px;
+    font-family: 'Poppins' sans-serif;
+    font-weight:600;
+    margin-bottom:50px;
+}
+.form-control {
+    border: 1px solid #c3bec2;
+    font-size: 16px;
+    height: 50px;
+    background: transparent;
+    border-radius: 0;
+    margin-bottom:30px;
+}
+.contact-area form a{
+    float:right;
+    margin-top:20px;
+}
+.contact-details{
+    background: rgba(55, 38, 57, 0.64);
+    padding:60px 40px;
+    color:#fff;
+    margin-bottom:20px;
+}
+.contact-details h4{
+    margin-bottom:25px;
+}
+.contact-details p{
+    margin: 0 0 10px;
+    color:#c3bec2;
+}
+
+/*.social {
+  background-color: #353535;
+  padding: 50px;
+  width: 1120px;
+  text-align: center;
+  /*margin-left: 50px;
+  padding-left: 50px;*/
+}*/
+
+.footer {
+    padding-top:50px;
+    padding-bottom:50px;
+    color:#fff;
+    background:#222222;
+}
+
+.main-footer .social{
+    margin-bottom:10px;
+}
+.main-footer .social a{
+    color:#c3bec2;
+    font-size:15px;
+}
+.main-footer .social a:hover{
+    color:#ff2b4a;
+}
+.main-footer .social a i{
+    border-right:1px solid #c3bec2;
+    padding:0 10px 0 10px;
+}
+.main-footer .social a i.dribbble{
+    border-right:0;
+}
+.main-footer p{
+    color:#c3bec2;
+    font-size:12px;
 }
