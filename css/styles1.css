@@ -306,14 +306,11 @@ p:last-child {
     color:#c3bec2;
 }
 
-/*.social {
-  background-color: #353535;
-  padding: 50px;
-  width: 1120px;
-  text-align: center;
-  /*margin-left: 50px;
-  padding-left: 50px;*/
-}*/
+.social {
+  /*background-color: #353535;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 .footer {
     padding-top:50px;
